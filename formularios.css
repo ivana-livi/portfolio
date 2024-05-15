@@ -1,0 +1,91 @@
+body {
+    padding:0%;
+    margin: 0%;
+    }
+    
+    ul
+    li{
+    list-style-type: none;
+    }
+    a { text-decoration: none;
+color: white;}
+
+header {
+    display: flex;
+    background-color: #E8D9C4;
+    align-items:center;
+    justify-content:space-between;
+    font-family: Cambria;
+    font-weight:300;
+    font-size: 150%;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+
+li {
+    position:relative;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    background-color:#E8D9C4 ;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    
+    }
+    footer i {
+    padding: 0.5em;
+    }
+    .titulo_seccion {
+        position: relative;
+        font-size: 40px;
+        font-family: Cambria;
+        color:#D6AF97 ;
+        text-align: center;
+        }
+        .container {
+        max-width: 40em; /* Define el ancho máximo del contenedor */
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+        padding: 2em; /* Agrega un poco de espacio alrededor del formulario */
+        border: 2em; /* Agrega un borde al contenedor */
+        border-radius: 30px; /* Agrega bordes redondeados al contenedor */
+        font-family: Cambria;
+        font-size: 2em;
+        display: flex;
+        justify-content:center;
+        }
+        .form-group {
+        margin-bottom: 15px; /* Espacio entre cada input */
+        }
+        label {
+        margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+        width: 40em; /* Define el ancho máximo del input */
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
+        textarea {
+        resize: vertical; /* Permite redimensionar verticalmente el textarea */
+        }
+        button {
+            background-color: #E8D9C4;
+            ;
+            width: 9em;
+            height: 3em;
+            border-radius: 4px;
+
+        }
+        button:hover {
+        background-color: white;
+        }
+        

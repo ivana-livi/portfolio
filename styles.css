@@ -1,0 +1,150 @@
+body {
+    padding:0%;
+    margin: 0%;
+    }
+    
+    ul
+    li{
+    list-style-type: none;
+    }
+    a { text-decoration: none;
+color: white;}
+
+header {
+    display: flex;
+    background-color: #E8D9C4;
+    align-items:center;
+    justify-content:space-between;
+    font-family: Cambria;
+    font-weight:300;
+    font-size: 150%;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+
+li {
+    position:relative;
+    justify-content: space-between;
+}
+
+
+#seccion-principal{
+    background-color: #FFFBFB;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.acerca-de-conteiner {
+    width: 60%;
+    display: flex-end;
+    font-family: Cambria;
+    font-weight: 500;
+    font-size: 170%;
+    position: relative;
+    left: 20%;
+}
+h2 {
+    background-color: #FFFBFB;
+    color: #D6AF97;
+    font-family: Cambria;
+    font-weight:bolder;
+    font-size: 200%;
+    padding-top: 30px;
+    position: relative;
+    top: 30px;
+}
+.acerca-imagen{
+    background-color: #FFFBFB;
+}
+.img-personal{
+    width: 250pt;
+    border-radius: 30px;
+}
+
+.articulo-cursos{
+    background-color: #FFFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+.pregunta {
+    font-family: Cambria;
+    width: 400;
+    font-size: 250%;
+    color: #D6AF97;
+    padding: 0%
+}
+.img-cursos {
+    width: 700pt;
+}
+.tarjeta-conteiner {
+    background-color: #FFFBFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.tarjeta1-img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.imagen1-Clases{
+    width: 350px;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 20px;
+}
+h4 {
+    font-size: 25px;
+    color: #D6AF97;
+}
+
+.tarjeta2 {
+    width: 360px;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+.tarjeta2-img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+footer {
+    display: flex;
+    background-color:#E8D9C4 ;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;    
+    }
+    footer i {
+    padding: 0.5em;
+    }
+
+ /* Add your custom CSS here */
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+            header nav ul {
+                display: none;
+            }
+            header nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            header nav ul li {
+                display: block;
+                text-align: center;
+                padding: 10px 0;
+            }
+        }
